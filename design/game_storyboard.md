@@ -7,25 +7,26 @@
 
 **Theme:**
 
-TODO: Name and briefly describe your game's theme.
+Escape from Blackwood Research Facility is a science-fiction horror-themed text adventure game. The player is trapped inside an abandoned research facility after a dangerous experiment goes wrong and must explore the facility to find the items needed to escape.
 
 **Storyline:**
 
-TODO: In one short paragraph, explain the setting, the player's goal, the items
-the player must gather, and the threat created by the villain.
+The player wakes up inside the abandoned Blackwood Research Facility after a failed experiment causes the facility to shut down. A dangerous scientist named Dr. Voss is searching the facility for the player. The player must explore the different rooms and collect six important items: a Keycard, Chemical Sample, Flashlight, Access Chip, First Aid Kit, and Power Cell. The player must collect all six items before entering the room where Dr. Voss is waiting. If the player encounters Dr. Voss before collecting all of the items, the game is over. If the player collects all six items first, they can safely reach the entrance and escape the facility.
+
+Rooms
 
 ## Rooms
 
 Project One requires a minimum of eight rooms.
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
+1. Security Office — Start room
+2. Laboratory
+3. Storage Room
+4. Computer Lab
+5. Medical Bay
+6. Generator Room
+7. Research Library
+8. Main Entrance — Villain room
 
 Add more rooms if your design needs them.
 
@@ -34,19 +35,19 @@ Add more rooms if your design needs them.
 With the minimum eight-room design, Project One requires at least six items.
 Every room except the start room and villain room must contain one item.
 
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
+1. Keycard
+2. Chemical Sample
+3. Flashlight
+4. Access Chip
+5. First Aid Kit
+6. Power Cell
 
 If you add rooms beyond the minimum, add an item for every additional room
 except the start room and villain room.
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+Dr. Voss is the scientist responsible for the dangerous experiment at Blackwood Research Facility. He is searching the facility for the player and waits near the Main Entrance. If the player enters the Main Entrance before collecting all six items, Dr. Voss catches the player and the game ends.
 
 ## Storyboard and Map Check
 
