@@ -7,19 +7,48 @@
 # Write pseudocode, not Python code. Use clear indentation and course-appropriate
 # keywords such as INPUT, OUTPUT, IF, ELSE, WHILE, SET, or similar terms.
 
-# TODO 1: Identify the information the movement process needs.
-# Consider the player's current room and movement command.
+# Prompt the player for a movement command.
+OUTPUT "Enter a direction to move (north, south, east, or west):"
+INPUT movement_command
 
-# TODO 2: Prompt for and receive the player's movement command.
+# Check whether the requested movement is possible from the current room.
+IF movement_command IS a valid direction from current_room THEN
 
-# TODO 3: Validate whether the requested movement is possible from the
-# current room. Show the decision clearly.
+# Move the player to the connected room.
+    SET current_room TO the room in the requested direction
 
-# TODO 4: Describe what happens when the movement command is valid.
-# Include the room update and player output.
+ # Tell the player which room they entered.
+    OUTPUT "You moved to " + current_room
 
-# TODO 5: Describe what happens when the movement command is invalid.
-# Include the output the player should receive.
+ # Check whether the player entered the villain's room.
+    IF current_room IS "Main Entrance" THEN
 
-# TODO 6: Show how movement fits into repeated gameplay.
-# The final game continues accepting commands until a required ending occurs.
+ # The player encounters Dr. Voss.
+        OUTPUT "Dr. Voss has found you!"
+
+        # Check whether the player collected all required items.
+        IF inventory contains all six required items THEN
+            OUTPUT "You collected all the items and escaped the facility!"
+            SET game_is_over TO TRUE
+        ELSE
+            OUTPUT "You entered the Main Entrance before collecting all the items."
+            OUTPUT "Dr. Voss caught you. Game over."
+            SET game_is_over TO TRUE
+        END IF
+
+    END IF
+
+ELSE
+
+    # The requested direction is not available from the current room.
+    OUTPUT "You cannot move in that direction from this room."
+
+END IF
+
+  END WHILE
+
+#The game ends after the player wins or encounters the villain.
+
+OUTPUT "Game over."
+
+END move_between_rooms
