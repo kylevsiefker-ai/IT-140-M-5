@@ -53,13 +53,13 @@ Dr. Voss is the scientist responsible for the dangerous experiment at Blackwood 
 
 Before submitting, compare this storyboard with `game_map.drawio`.
 
-* [x ] I included eight (8) rooms.
-* [x ] I included six (6) collectable items.
-* [x ] The start room has no item.
-* [x ] The villain room has no item.
-* [x ] Every room except the start room and villain room contains one item.
-* [x ] Room, item, and villain names match my map.
-* [x ] The map allows the player to collect all required items before the
+* [x] I included eight (8) rooms.
+* [x] I included six (6) collectable items.
+* [x] The start room has no item.
+* [x] The villain room has no item.
+* [x] Every room except the start room and villain room contains one item.
+* [x] Room, item, and villain names match my map.
+* [x] The map allows the player to collect all required items before the
   villain is encountered.
 
 ## Project Two Handoff
